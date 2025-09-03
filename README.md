@@ -7,13 +7,13 @@ It enables all the awesomeness of ZSH with a small and tidy config.
 # Install
 
 ```
-git clone --recursive https://github.com/iturdikulov/slimzsh.git ~/.slimzsh
+git clone --recursive https://github.com/iturdikulov/slimzsh.git ~/.config/.slimzsh
 ```
 
 Add following to `~/.zshrc`
 
 ```
-source "$HOME/.slimzsh/slim.zsh"
+[ -f "$HOME/.config/slimzsh/slim.zsh" ] && source "$HOME/.config/slimzsh/slim.zsh"
 ```
 
 # Features
